@@ -7,9 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -37,3 +34,12 @@ jobs:
           sudo apt update
           sudo apt install terraform
           terraform --version
+          ls
+          cd terraform-aws-raju/aws-rds
+          terraform init --backend-config="access_key=$AWS_ACCESS_KEY_ID" --backend-config="secret_key=$AWS_SECRET_ACCESS_KEY"
+          terraform validate 
+          terraform fmt 
+          terraform plan --auto-approve -no-color 
+          terraform apply --auto-approve -no-color
+        #terraform destory --auto-approve -no-color
+
