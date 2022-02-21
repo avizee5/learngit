@@ -1,5 +1,5 @@
 module "rds_subnet_group" {
-  source      = "/home/it/Documents/terraform-aws-raju/aws-rds/rds_subnet_group"
+  source      = "/rds_subnet_group"
   name        = "b2bapi-subnet"
   description = "The description of the DB subnet group"
   subnet_ids  = ["subnet-06631f8436563b89c", "subnet-060c430ce12563e56"]
@@ -15,7 +15,7 @@ module "rds_subnet_group" {
   }
 }
 module "sec_grp"  {
-  source = "/home/it/Documents/terraform-aws-raju/aws-rds/aws_security_group"
+  source = "/aws_security_group"
   vpc_id = "vpc-05a231c1556f22cf7"
   #revoke_rules_on_delete = true
   name = "rds-sg"
@@ -31,7 +31,7 @@ module "sec_grp"  {
   }
 }
 module "sgr" {
-  source = "/home/it/Documents/terraform-aws-raju/aws-rds/aws_security_group_ingress"
+  source = "/aws_security_group_ingress"
   #type             = "ingress"
   security_group_id = module.sec_grp.sg_id
   ports             = "3306"
@@ -42,12 +42,12 @@ module "sgr" {
   #self              = var.self
 }
 module "rds_parameter_group" {
-  source = "/home/it/Documents/terraform-aws-raju/aws-rds/rds_parameter_group"
+  source = "/rds_parameter_group"
   name   = "zee5-dev-b2bapi"
   family = "mysql5.7"
 }
 module "rds_instance" {
-  source            = "/home/it/Documents/terraform-aws-raju/aws-rds/rds_instance"
+  source            = "/rds_instance"
   identifier        = "zee5-dev-b2bapi"
   allocated_storage = 20
   storage_type      = "gp2"
@@ -60,7 +60,7 @@ module "rds_instance" {
   username = "zee5adminb2bapi"
   password = "AypRD`&=Gzf2)6sJ7:+u"
   #vpc_security_group_ids          = "terraform-sg"
-  db_subnet_group_name            = "rdsmultiaz-sbg"
+  #db_subnet_group_name            = "rdsmultiaz-sbg"
   multi_az                        = false
   vpc_id                          = "vpc-05a231c1556f22cf7"
   kms_key_id                      = "arn:aws:kms:us-east-1:651165067307:key/ea13a532-34ec-46fd-9ccd-6a9b74fec209"
