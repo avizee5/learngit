@@ -35,7 +35,7 @@ jobs:
           sudo apt install terraform
           terraform --version
           ls
-          terraform init --backend-config="access_key=$ACCESS_KEY" --backend-config="secret_key=$SECRET_KEY"
+          terraform init
           terraform validate 
           terraform fmt 
           terraform plan --auto-approve -no-color 
