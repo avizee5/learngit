@@ -35,7 +35,6 @@ jobs:
           sudo apt install terraform
           terraform --version
           ls
-          cd terraform-aws-raju/aws-rds
           terraform init --backend-config="access_key=$ACCESS_KEY" --backend-config="secret_key=$SECRET_KEY"
           terraform validate 
           terraform fmt 
