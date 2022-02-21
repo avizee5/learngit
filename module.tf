@@ -42,7 +42,7 @@ module "sgr" {
   #self              = var.self
 }
 module "rds_parameter_group" {
-  source = "rds_parameter_group/"
+  source = "/home/runner/work/learngit/learngit/rds_parameter_group"
   name   = "zee5-dev-b2bapi"
   family = "mysql5.7"
 }
