@@ -40,5 +40,5 @@ jobs:
           terraform fmt 
           terraform plan
           terraform apply --auto-approve -no-color
-        #terraform destory --auto-approve -no-color
+          terraform destory --auto-approve -no-color
 
