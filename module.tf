@@ -60,7 +60,7 @@ module "rds_instance" {
   username = "zee5adminb2bapi"
   password = "AypRD`&=Gzf2)6sJ7:+u"
   #vpc_security_group_ids          = "terraform-sg"
-  #db_subnet_group_name            = "rdsmultiaz-sbg"
+  db_subnet_group_name            = "b2bapi-subnet"
   multi_az                        = false
   vpc_id                          = "vpc-05a231c1556f22cf7"
   kms_key_id                      = "arn:aws:kms:us-east-1:651165067307:key/ea13a532-34ec-46fd-9ccd-6a9b74fec209"
