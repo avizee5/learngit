@@ -1,5 +1,5 @@
 module "rds_subnet_group" {
-  source      = "rds_subnet_group"
+  source      = "rds_subnet_group/"
   name        = "b2bapi-subnet"
   description = "The description of the DB subnet group"
   subnet_ids  = ["subnet-06631f8436563b89c", "subnet-060c430ce12563e56"]
@@ -15,7 +15,7 @@ module "rds_subnet_group" {
   }
 }
 module "sec_grp"  {
-  source = "aws_security_group"
+  source = "aws_security_group/"
   vpc_id = "vpc-05a231c1556f22cf7"
   #revoke_rules_on_delete = true
   name = "rds-sg"
@@ -31,7 +31,7 @@ module "sec_grp"  {
   }
 }
 module "sgr" {
-  source = "aws_security_group_ingress"
+  source = "aws_security_group_ingress/"
   #type             = "ingress"
   security_group_id = module.sec_grp.sg_id
   ports             = "3306"
@@ -42,12 +42,12 @@ module "sgr" {
   #self              = var.self
 }
 module "rds_parameter_group" {
-  source = "rds_parameter_group"
+  source = "rds_parameter_group/"
   name   = "zee5-dev-b2bapi"
   family = "mysql5.7"
 }
 module "rds_instance" {
-  source            = "rds_instance"
+  source            = "rds_instance/"
   identifier        = "zee5-dev-b2bapi"
   allocated_storage = 20
   storage_type      = "gp2"
