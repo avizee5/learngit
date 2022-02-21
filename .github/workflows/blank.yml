@@ -39,6 +39,6 @@ jobs:
           terraform validate 
           terraform fmt 
           terraform plan
-          terraform apply --auto-approve -no-color
+          #terraform apply --auto-approve -no-color
           terraform destory --auto-approve -no-color
 
