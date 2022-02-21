@@ -73,9 +73,9 @@ module "rds_instance" {
   max_allocated_storage           = 1000
   enabled_cloudwatch_logs_exports = ["audit", "error"]
   #maintenance_window          = true
-  skip_final_snapshot     = true
+  skip_final_snapshot     = false
   backup_retention_period = 7
-  deletion_protection     = false
+  deletion_protection     = true
   #performance_insights_kms_key_id = false
   #vpc_sg = "sg-06801fc78f012b33d"
   tags = {
