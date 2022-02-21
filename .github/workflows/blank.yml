@@ -38,7 +38,7 @@ jobs:
           terraform init --backend-config="access_key=${{ secrets.AWS_ACCESS_KEY_ID }}" --backend-config="secret_key=${{ secrets.AWS_SECRET_ACCESS_KEY }}"
           terraform validate 
           terraform fmt 
-          terraform plan --auto-approve -no-color 
+          terraform plan
           terraform apply --auto-approve -no-color
         #terraform destory --auto-approve -no-color
 
