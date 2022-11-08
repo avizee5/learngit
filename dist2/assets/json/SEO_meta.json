@@ -1,0 +1,200 @@
+{
+  "/": {
+    "title": "Watch TV Serials, Original Shows, Movies, News & Live TV Online | {ZEE5}",
+    "description": "100,000+ hours of TV Shows from ZEE network, Movies, International & Original content, music online in the language of your choice. Watch 90+ Live TV channels online including News anytime, anywhere on {ZEE5} – where you feel the entertainment come alive!"
+  },
+  "/news": {
+    "title": "Watch Latest News Headlines, Live News Videos from India & World | {ZEE5}",
+    "description": " Watch live breaking news & latest news headlines from India & around the World. Find top stories from ZEE News, CNN, Republic TV and more news channels online in HD only on {ZEE5}."
+  },
+  "/tvshows": {
+    "title": "Watch Best TV Serials, Shows, Full Episodes & Spoilers Online | {ZEE5}",
+    "description": "Enjoy top TV shows, serials, web series in English, Hindi and other regional languages online in HD. Watch full episodes, short clips, previews and more only on {ZEE5}"
+  },
+  "/livetv": {
+    "title": "Live Streaming of TV Shows, News, Movies & TV Channels Online in HD | {ZEE5}",
+    "description": "Enjoy 90+ Live TV Channels Online on ZEE5. Watch your favourite TV shows, news, movies & entertainment videos in Hindi, English & other regional languages online only on {ZEE5}."
+  },
+  "/movies": {
+    "title": "Movies - Watch Best Bollywood, Hollywood & Regional Movies Online | {ZEE5}",
+    "description": "Watch latest Bollywood, Hollywood & Regional Movies online in HD. Browse all new, 90's special, old classic & top movies online in different languages only on {ZEE5}."
+  },
+  "/premium": {
+    "title": "Watch Blockbuster Movies, Originals, International Shows, LiveTV Online | {ZEE5}",
+    "description": "HD collection of popular and blockbuster hollywood, bollywood, international and regional movies. Watch the best of international and ZEE5 Originals series online in the language of your choice only on {ZEE5} – where you feel the entertainment come alive!"
+  },
+  "/tvguide": {
+    "title": "TV Guide Listings - All Live TV Channels & Show Schedules | {ZEE5}",
+    "description": "Browse our TV Guide to see the complete TV schedules & program listings across 90+ Live TV channels by day, time, language & genre to watch it online on {ZEE5}."
+  },
+  "/tvshows/all": {
+    "title": "All TV Shows List - TV Serials, Series of all Languages & Genres Online | {ZEE5}",
+    "description": "Find list of all TV series & shows Online. Browse entire collection of latest, popular & old reality shows, TV shows & serials in all languages, genres in HD anytime, anywhere only on {ZEE5}."
+  },
+  "/movies/all": {
+    "title": "List of All Movies in All Languages & Genre | {ZEE5}",
+    "description": "Find entire collection of popular, blockbuster bollywood,hollywood, international & regional movies online. Discover the best, new, latest & old movies online only on {ZEE5}."
+  },
+  "/zee5originals": {
+    "title": "ZEE5 Originals - Watch Original Series, Movies & Short Films Online | {ZEE5}",
+    "description": "Enjoy ZEE5 Originals shows, movies and short films of all genres in HD. Watch ZEE5 Originals in English, Hindi and other regional languages online only on {ZEE5}."
+  },
+  "/zee5originals/all": {
+    "title": "ZEE5 Originals List - All Original Series, Movies & Short Films Online | {ZEE5}",
+    "description": "Browse our entire collection of all original shows, movies & short films of all genres. Watch ZEE5 Originals in English, Hindi and other Indian regional languages only on {ZEE5}."
+  },
+  "/language": {
+    "title": "Choose the Display & Content Language of your Choice | {ZEE5}",
+    "description": "Choose your preferred content and display languages of your choice and enjoy ZEE5 in the language of your choice."
+  },
+  "/settings": {
+    "title": "{ZEE5} Settings",
+    "description": "Personalise {ZEE5} as per your choice through different settings and make the website more suited towards you."
+  },
+  "/aboutus": {
+    "title": "About {ZEE5} – Learn More About {ZEE5}",
+    "description": "ZEE5 is one of the leading online streaming Over The Top (OTT) platform with 90+ live TV channels & 1.25 lac+ hours of viewing across multiple languages. Enjoy HD Video Content experience on {ZEE5}."
+  },
+  "/faq": {
+    "title": "FAQ's - Frequently Asked Questions & Queries | {ZEE5}",
+    "description": "Visit our FAQs section to get the answers to all your questions and queries related to {ZEE5}. "
+  },
+  "/channels": {
+      "title": "90+ TV Channels with Live Streaming of Shows, News & Movies Online | {ZEE5}",
+      "description": "Browse our list of 90+ TV Channels including ZEE TV, ZEE Marathi, ZEE News, BBC World, CNN & more channels in English, Hindi and other regional languages on {ZEE5}." 
+  },
+  "/myaccount/subscription": {
+    "title": "Subscribe to ZEE5 - Access Premium Movies, Web Series, Live TV & more Online.",
+    "description": "Get ZEE5's premium membership & enjoy the latest ZEE5 Originals, Movies, Short Films, Live TV & more. Avail the best custom offers with ZEE5 subscription plans."
+  },
+  "/contactus": {
+    "title": "Contact Us | {ZEE5}",
+    "description": "Have any queries or feedback for us? ZEE5 is always listening. Please reach out to us through e-mail or phone for further information or assistance."
+  },
+  "/privacypolicy": {
+    "title": "Privacy Policy - {ZEE5}",
+    "description": "Read the privacy policy of {ZEE5} that covers how Zee Entertainment Enterprises Limited (ZEEL) follows the highest standard of privacy guidelines to protect the information shared by You. Click to know more."
+  },
+  "/termsofuse": {
+    "title": "Terms & Conditions | {ZEE5}",
+    "description": "Check our Terms & Conditions related to the access & use of ZEE5's entertainment content like movies & TV series online. Find all details regarding ZEE5's Terms of Use here."
+  },
+  "/videos": {
+    "title": "Watch Free Online Videos of Movie/Album Songs, Trailers, News, Gossips | {ZEE5}",
+    "description": "Enjoy watching latest videos on bollywood songs,music albums, celebrity gossips, old, new and latest videos in 12 different languages online Free on {ZEE5}."
+  },
+  "/videos/all": {
+    "title": "All Videos List - Music, News, Trailers, Recipes & More Online Free | {ZEE5}",
+    "description": "Find our entire collection of videos like movies trailers, latest news, celebrity gossips, music & more online. Enjoy watching old, new & latest videos in 12 languages on {ZEE5}."
+  },
+  "/search": {
+    "title": "Watch TV Serials, Original Shows, Movies, News & Live TV Online | {ZEE5}",
+    "description": "100,000+ hours of TV Shows from ZEE network, Movies, International & Original content, music online in the language of your choice. Watch 90+ Live TV channels online including News anytime, anywhere on {ZEE5} – where you feel the entertainment come alive!"
+  },
+  "template":{
+    "channelPage":{
+      "title":"Channel Name - Watch Channel Name (Channel Language) Shows, Serials, Full Episode Online | {ZEE5} | (Genre)",
+      "description":"Watch the latest and catch-up episodes of all the latest, popular, old reality shows, TV shows and serials from Channel Name channel online in full HD anytime, anywhere only on {ZEE5} – where you feel Channel Name come alive!"
+    },
+    "showPages":{
+      "title":"Watch Show Name TV Serial from Channel Name Online | {ZEE5}",
+      "description":"Enjoy latest and full episodes of Show Name TV serial online. Watch webisodes, clips, previews and more of Show Name in HD only on {ZEE5}"
+    },
+    "moviePage":{
+      "title":"Watch Movie Name (Video Language) Full Movie Online | {ZEE5} | (Genre)",
+      "description":"Watch Movie Name full movie online in full HD anytime, anywhere only on {ZEE5} – where you feel the movies come alive!"
+    },
+    "movieFree": {
+      "title": "Watch Movie Name Full Movie Online Free in HD | {ZEE5}",
+      "description": "Watch Movie Name full movie online in HD. Enjoy this Genre film castNames director only on ZEE5."
+    },
+    "moviePremium": {
+      "title": "Watch Movie Name Full Movie Online in HD | {ZEE5}",
+      "description": "Watch Movie Name full movie online in HD. Enjoy this Genre film castNames director only on ZEE5."
+    },
+    "videoPage": {
+      "title":"Movie Name Full Video Song - Movie Name | {ZEE5}",
+      "description":"Enjoy Movie Name full video song from Movie Name online in HD on {ZEE5}."
+    },
+    "newsPage":{
+      "title":"Watch News Title News Video Online | {ZEE5}",
+      "description":"Watch News Title. Stay up-to-date with latest news & headlines online in HD only on {ZEE5}."
+    },
+    "eachEpisodeOriginalPage": {
+      "title":"Watch OC Name Season Season No Full Episode EpisodeNo- Episode Title | {ZEE5}",
+      "description":"Watch full episode EpisodeNo - Episode Title of OC Name Season Season No, a ZEE5 Originals series online in HD anytime, anywhere only on {ZEE5}."
+    },
+     "eachEpisodeShowPage": {
+      "title":"Watch Show Name - Date Full Episode Online in HD | {ZEE5}",
+      "description":"Watch Show Name from Channel Name, Date full episode, creativetitle online in HD only on {ZEE5}."
+    },
+     "originalPage": {
+      "title":"OC Name Season Season No - Watch Zee5 Original Series OC Name  Online | {ZEE5}",
+      "description":"   Watch ZEE5 Originals show OC Name Season Season No, full series online in HD anytime, anywhere only on ZEE5."
+    },
+    "catchupPage": {
+      "title":"Channel Name (Channel Language) - All Catch-Up Shows, Serials, Full Episode Online | {ZEE5} | (Genre)",
+      "description":"Watch all the catch-up episodes of all the latest, popular, old reality shows, TV shows and serials from Channel Name channel online in full HD anytime, anywhere only on {ZEE5} – where you feel Channel Name come alive!"
+    },
+    "tvguidePage": {
+      "title":"Watch Channel Name Live - All Channel Name Channel Language Shows & Programs Live Online | {ZEE5} | (Genre)",
+      "description":"Enjoy live streaming of Channel Name only on ZEE5. Watch all shows and programs of Channel Name online Live 24x7 only on {ZEE5} – where you feel Live TV come alive!"
+    },
+    "showSubLanding": {
+      "title":"Category Name - Watch Popular Shows Online Streaming | {ZEE5}",
+      "description":"Browse our entire collection of Category Name and watch them online in full HD anytime, anywhere only on {ZEE5} – where you feel the Entertainment come alive!"
+    },
+    "moviesSubLanding": {
+      "title":"Pick Your Favourite Category Name & Watch Online | {ZEE5}",
+      "description":"Explore from our enitre collection of Category Name Online. Watch your favourite movies in different languages & genres in HD anytime & anywhere only on {ZEE5}."
+    },
+    "videosSubLanding": {
+      "title":"Category Name Video List - Watch Popular Videos Online in HD | {ZEE5}",
+      "description":"Browse our entire collection of Category Name videos and watch them online in full HD anytime, anywhere only on {ZEE5} – where you feel the Videos come alive!"
+    },
+    "internationaltvshows": {
+      "title":"OC Name Season Season No - Watch OC Name (Video Language) Season Season No Series Online | {ZEE5} | (Genre)",
+      "description":"Watch OC Name Season Season No, full series online in full HD anytime, anywhere only on ZEE5 – where you feel the Series come alive!"
+    },
+    "showEpisodesPage": {
+      "title":"View List of All Episodes of Show Name Online in HD | {ZEE5}",
+      "description": "Catch up list of all episodes of Show Name TV serial Online in HD anytime & anywhere only on {ZEE5}."
+    },
+    "showEpisodesMore": {
+      "title": "View More Videos & Clips From Show Name TV Serials Online | {ZEE5}",
+      "description": "Find More List of Videos, Clips, Webisodes of Show Name TV serial online in HD anytime, anywhere only on {ZEE5}."
+    },
+    "originalsEpisodePage": {
+    "title": "View All Episodes of OC Name Season Season No ZEE5 Originals Series Online | {ZEE5}",
+      "description": "Browse all the episodes of OC Name Season Season No, a ZEE5 Originals series online in full HD anytime, anywhere only on {ZEE5}"
+    },
+    "originalsMorePage": {
+      "title": "More Videos of OC Name (Video Language) Season Season No ZEE5 Originals Series Online | {ZEE5} | (Genre)",
+      "description": "Browse all the extra videos of OC Name ZEE5 Originals series Season Season No online in full HD anytime, anywhere only on ZEE5 – where you feel the originals come alive."
+    },
+    "internationalEpisodepage": {
+      "title": "View All Episodes of OC Name (Video Language) Series Season Season No Online | {ZEE5} | (Genre)",
+      "description": "Browse all the episodes of OC Name series Season Season No online in full HD anytime, anywhere only on ZEE5 – where you feel the series come alive."
+    },
+    "internationMorePage": {
+      "title": "More Videos of OC Name (Video Language) Series Season Season No Online | {ZEE5} | (Genre)",
+      "description": "Browse all the extra videos of OC Name series Season Season No online in full HD anytime, anywhere only on ZEE5 – where you feel the series come alive."
+    },
+    "eachInternationalShowPage": {
+      "title":"Watch Episode EpisodeNo of Show Title Video Language Series Season Season No Online - Episode Title | {ZEE5} | (Genre)",
+      "description":"Watch the full episode EpisodeNo of Show Title Season Season No: Episode Title online in full HD anytime, anywhere only on ZEE5 – where you feel the Series come alive!"
+    },
+    "Movietrailer": {
+      "title":"OC Name Trailer Video Language Video Online | {ZEE5}",
+      "description": "OC Name Trailer Video Language Video Online | {ZEE5}"
+    },
+    "eachInternationalTrailerPage": {
+      "title":"Watch Official Trailer of Show Title Series Season Season No Online | {ZEE5}",
+      "description":"Watch the official trailer of Show Title Season Season No online in HD. Get the latest cast info, release date & more only on {ZEE5}."
+    },
+    "eachOriginalTrailerPage": {
+      "title":"Watch Official Trailer of OC Name Season Season No ZEE5 Originals Series Online | {ZEE5}",
+      "description":"Watch the official trailer of OC Name Season Season No, a ZEE5 Originals series online in HD anytime, anywhere only on {ZEE5}."
+    }
+  }
+}
