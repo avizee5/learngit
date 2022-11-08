@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic_next</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_next" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(12.333333, 12.000000) scale(-1, 1) translate(-12.333333, -12.000000) translate(3.333333, 1.000000)" stroke="#FFFFFF">
+            <path d="M16.3066588,20.7509824 L2.00471765,11.7782176 C1.38548235,11.3893353 1.38548235,10.4873353 2.00471765,10.0984529 L16.3066588,1.12568824 C16.9673059,0.711570588 17.8246588,1.18651176 17.8246588,1.96557059 L17.8246588,19.9111 C17.8246588,20.6908059 16.9673059,21.1657471 16.3066588,20.7509824 Z" id="Stroke-5"></path>
+            <path d="M0.323529412,21.8764118 L0.323529412,-1.42108547e-14" id="Stroke-7"></path>
+        </g>
+    </g>
+</svg>
