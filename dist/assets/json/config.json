@@ -165,7 +165,12 @@
     {
       "id": "akamai",
       "name": "Akamai",
-      "url_in": "https://zee5vod.akamaized.net"
+      "url_in": "https://mygpdrm.akamaized.net"
+    },
+    {
+      "id": "mygpdrm.akamaized.net",
+      "name": "Akamai",
+      "url_in": "https://mygpdrm.akamaized.net"
     },
     {
       "id": "cloudfront",
@@ -576,7 +581,7 @@
     }
   ],
   "default_urls": {
-    "download": "https://zee5vod.akamaized.net",
+    "download": "https://mygpdrm.akamaized.net",
     "share": "https://www.zee5.com/",
     "precision": "https://vrl.m.conviva.com/"
   },
