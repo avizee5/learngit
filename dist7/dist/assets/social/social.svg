@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	
+    <!-- SOCIAL ICONS -->
+    <!-- FACEBOOK -->
+    <symbol viewBox="0 0 30 30" id="fb_icon">
+        <title>fb_icon</title>  
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M27.5,0H2.5A2.51,2.51,0,0,0,0,2.5v25A2.51,2.51,0,0,0,2.5,30h25A2.51,2.51,0,0,0,30,27.5V2.5A2.51,2.51,0,0,0,27.5,0Z" fill="#6e6e6e"/><path id="f" d="M18.5,15.5,19,13H16.5V11c0-.75.4-1,1.5-1h1V7.5H17A3.23,3.23,0,0,0,13.5,11v2H11v2.5h2.5v7h3v-7Z" fill="#fff"/></g></g>
+    </symbol>
+
+    <!-- TWITTER -->
+    <symbol viewBox="0 0 30 30" id="twitter_icon">
+        <title>twitter_icon</title>  
+        <defs><style>.twitter_icon-cls-1{fill:#6e6e6e;}.twitter_icon-cls-2{fill:#fff;}</style></defs>
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="twitter_icon-cls-1" width="30" height="30" rx="3.08" ry="3.08"/><path class="twitter_icon-cls-2" d="M23.56,9.69a6.78,6.78,0,0,1-2,.55A3.48,3.48,0,0,0,23.09,8.3a7.18,7.18,0,0,1-2.23.86,3.52,3.52,0,0,0-6.08,2.4,3.57,3.57,0,0,0,.09.8A10,10,0,0,1,7.63,8.69a3.53,3.53,0,0,0,1.09,4.69,3.53,3.53,0,0,1-1.59-.44v0a3.51,3.51,0,0,0,2.81,3.44,3.46,3.46,0,0,1-.92.13,3.51,3.51,0,0,1-.66-.07,3.51,3.51,0,0,0,3.28,2.44,7.06,7.06,0,0,1-4.36,1.5,5.75,5.75,0,0,1-.84-.05A10,10,0,0,0,21.82,12l0-.45A7.08,7.08,0,0,0,23.56,9.69Z"/></g></g>
+    </symbol>
+
+    <!-- INSTAGRAM -->
+    <symbol viewBox="0 0 504.4 504.4" id="insta_icon">
+        <title>insta_icon</title>  
+        <g>
+            <g>
+                <path d="M296.8,219.8c-10-14-26.4-23.2-44.8-23.2c-18.4,0-34.8,9.2-44.8,23.2c-6.4,9.2-10.4,20.4-10.4,32.4    c0,30.4,24.8,55.2,55.2,55.2c30.4,0,55.2-24.8,55.2-55.2C307.2,240.2,303.2,229,296.8,219.8z" fill="#6e6e6e"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path d="M331.6,220.2c4,8,6.4,20.8,6.4,32c0,47.2-38.4,86-86,86c-47.6,0-86-38.4-86-86c0-11.6,2.4-24,6.4-32H124v128.4    c0,16.8,14.8,31.6,31.6,31.6h192.8c16.8,0,31.6-14.8,31.6-31.6V220.2H331.6z" fill="#6e6e6e"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <polygon points="365.6,131.4 319.2,131.4 319.2,184.6 372,184.6 372,138.2 372,131   " fill="#6e6e6e"/>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path d="M377.6,0.2H126.4C56.8,0.2,0,57,0,126.6v251.6c0,69.2,56.8,126,126.4,126H378c69.6,0,126.4-56.8,126.4-126.4V126.6    C504,57,447.2,0.2,377.6,0.2z M408,219.8L408,219.8l0,128.8c0,33.6-26,59.6-59.6,59.6H155.6c-33.6,0-59.6-26-59.6-59.6V219.8v-64    c0-33.6,26-59.6,59.6-59.6h192.8c33.6,0,59.6,26,59.6,59.6V219.8z" fill="#6e6e6e"/>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol viewBox="0 0 30 30" id="fb_icon_selected">
+        <title>fb_icon_selected</title>  
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M27.5,0H2.5A2.51,2.51,0,0,0,0,2.5v25A2.51,2.51,0,0,0,2.5,30h25A2.51,2.51,0,0,0,30,27.5V2.5A2.51,2.51,0,0,0,27.5,0Z" fill="#2b569b"/><path id="f" d="M18.5,15.5,19,13H16.5V11c0-.75.4-1,1.5-1h1V7.5H17A3.23,3.23,0,0,0,13.5,11v2H11v2.5h2.5v7h3v-7Z" fill="#fff"/></g></g>
+    </symbol>
+
+    <symbol viewBox="0 0 30 30" id="twitter_icon_selected">
+        <title>twitter_icon_selected</title>  
+        <defs><style>.twitter_icon_selected-cls-1{fill:#32cdfd;}.twitter_icon_selected-cls-2{fill:#fff;}</style></defs><title>Asset 2</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="twitter_icon_selected-cls-1" width="30" height="30" rx="3.08" ry="3.08"/><path class="twitter_icon_selected-cls-2" d="M23.56,9.69a6.78,6.78,0,0,1-2,.55A3.48,3.48,0,0,0,23.09,8.3a7.18,7.18,0,0,1-2.23.86,3.52,3.52,0,0,0-6.08,2.4,3.57,3.57,0,0,0,.09.8A10,10,0,0,1,7.63,8.69a3.53,3.53,0,0,0,1.09,4.69,3.53,3.53,0,0,1-1.59-.44v0a3.51,3.51,0,0,0,2.81,3.44,3.46,3.46,0,0,1-.92.13,3.51,3.51,0,0,1-.66-.07,3.51,3.51,0,0,0,3.28,2.44,7.06,7.06,0,0,1-4.36,1.5,5.75,5.75,0,0,1-.84-.05A10,10,0,0,0,21.82,12l0-.45A7.08,7.08,0,0,0,23.56,9.69Z"/></g></g>
+    </symbol>
+
+    <symbol viewBox="0 0 551.034 551.034" id="insta_icon_selected">
+        <title>insta_icon_selected</title>  
+        <g>
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                <stop  offset="0" style="stop-color:#E09B3D"/>
+                <stop  offset="0.3" style="stop-color:#C74C4D"/>
+                <stop  offset="0.6" style="stop-color:#C21975"/>
+                <stop  offset="1" style="stop-color:#7024C4"/>
+            </linearGradient>
+            <path style="fill:url(#SVGID_1_);" d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722
+                c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156
+                C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156
+                c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722
+                c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/>
+            
+                <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                <stop  offset="0" style="stop-color:#E09B3D"/>
+                <stop  offset="0.3" style="stop-color:#C74C4D"/>
+                <stop  offset="0.6" style="stop-color:#C21975"/>
+                <stop  offset="1" style="stop-color:#7024C4"/>
+            </linearGradient>
+            <path style="fill:url(#SVGID_2_);" d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517
+                S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083
+                s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z"/>
+            
+                <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="418.31" y1="4.57" x2="418.31" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
+                <stop  offset="0" style="stop-color:#E09B3D"/>
+                <stop  offset="0.3" style="stop-color:#C74C4D"/>
+                <stop  offset="0.6" style="stop-color:#C21975"/>
+                <stop  offset="1" style="stop-color:#7024C4"/>
+            </linearGradient>
+            <circle style="fill:url(#SVGID_3_);" cx="418.31" cy="134.07" r="34.15"/>
+         </g>
+    </symbol>
+
+    <symbol viewBox="0 0 30 30" id="google_icon">
+        <title>google_icon</title>  
+        <defs><linearGradient id="linear-gradient" x1="15440.29" y1="-57707.39" x2="15440.29" y2="-58164.33" gradientTransform="matrix(0.03, 0, 0, -0.03, -422.67, -1627.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.99" stop-color="#f2f2f2"/><stop offset="1" stop-color="#e5e5e5"/></linearGradient></defs>
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M27.5,0H2.5A2.51,2.51,0,0,0,0,2.5v25A2.51,2.51,0,0,0,2.5,30h25A2.51,2.51,0,0,0,30,27.5V2.5A2.51,2.51,0,0,0,27.5,0Z" fill="#6e6e6e"/><g id="Warstwa_1"><path d="M21.21,12.35H23c0,.59,0,1.18,0,1.77h1.77v1.76H23c0,.59,0,1.18,0,1.77H21.2c0-.59,0-1.18,0-1.77H19.42V14.13h1.77c0-.59,0-1.18,0-1.77ZM5.26,15a6.22,6.22,0,0,1,10.32-4.66c-.5.56-1,1.11-1.57,1.62a4.34,4.34,0,0,0-3.66-.71A3.91,3.91,0,1,0,13,18.62a3.42,3.42,0,0,0,2-2.34c-1.18,0-2.36,0-3.55,0,0-.7,0-1.41,0-2.11,2,0,4,0,5.93,0a7,7,0,0,1-1.25,5,6.11,6.11,0,0,1-6.68,1.78A6.19,6.19,0,0,1,5.26,15Z" fill="url(#linear-gradient)"/></g></g></g>
+    </symbol>
+
+    <symbol viewBox="0 0 30 30" id="google_icon_selected">
+        <title>google_icon_selected</title>  
+        <defs><linearGradient id="linear-gradient" x1="15440.29" y1="-57707.39" x2="15440.29" y2="-58164.33" gradientTransform="matrix(0.03, 0, 0, -0.03, -422.67, -1627.08)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.99" stop-color="#f2f2f2"/><stop offset="1" stop-color="#e5e5e5"/></linearGradient></defs>
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M27.5,0H2.5A2.51,2.51,0,0,0,0,2.5v25A2.51,2.51,0,0,0,2.5,30h25A2.51,2.51,0,0,0,30,27.5V2.5A2.51,2.51,0,0,0,27.5,0Z" fill="#df4a32"/><g id="Warstwa_1"><path d="M21.21,12.35H23c0,.59,0,1.18,0,1.77h1.77v1.76H23c0,.59,0,1.18,0,1.77H21.2c0-.59,0-1.18,0-1.77H19.42V14.13h1.77c0-.59,0-1.18,0-1.77ZM5.26,15a6.22,6.22,0,0,1,10.32-4.66c-.5.56-1,1.11-1.57,1.62a4.34,4.34,0,0,0-3.66-.71A3.91,3.91,0,1,0,13,18.62a3.42,3.42,0,0,0,2-2.34c-1.18,0-2.36,0-3.55,0,0-.7,0-1.41,0-2.11,2,0,4,0,5.93,0a7,7,0,0,1-1.25,5,6.11,6.11,0,0,1-6.68,1.78A6.19,6.19,0,0,1,5.26,15Z" fill="url(#linear-gradient)"/></g></g></g>
+    </symbol>
+
+    <symbol viewBox="0 0 44 44" id="mail_icon">
+        <title>mail_icon</title>  
+        <g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect width="44" height="44" fill="#6e6e6e" opacity="0"/><polygon points="22 27.01 11.12 16.62 11.98 15.71 22 25.3 32.02 15.71 32.88 16.62 22 27.01" fill="#6e6e6e"/><path d="M34.47,33h-25a1.83,1.83,0,0,1-1.83-1.82V12.82A1.83,1.83,0,0,1,9.47,11H34.53a1.83,1.83,0,0,1,1.83,1.82V31.18A1.88,1.88,0,0,1,34.47,33Zm-25-20.72a.61.61,0,0,0-.61.61V31.17a.61.61,0,0,0,.61.6H34.53a.61.61,0,0,0,.61-.6V12.83a.61.61,0,0,0-.61-.6H9.47Z" fill="#6e6e6e"/></g></g>
+    </symbol>
+
+    <!-- define view locations for each icon -->
+    <view viewBox="0 0 35 35" id="fb_icon-view" />
+    <view viewBox="0 36 35 35" id="twitter_icon-view" />
+    <view viewBox="0 72 35 35" id="insta_icon-view" />
+    <view viewBox="0 108 35 35" id="fb_icon_selected-view"  />
+    <view viewBox="0 144 35 35" id="twitter_icon_selected-view" />
+    <view viewBox="0 180 35 35" id="insta_icon_selected-view" />
+    <view viewBox="0 216 35 35" id="google_icon-view" />
+    <view viewBox="0 252 35 35" id="google_icon_selected-view" />
+    <view viewBox="0 288 35 35" id="mail_icon-view" />
+    
+
+	<use width="35" height="35" x="0" y="0" xlink:href="#fb_icon"></use>
+	<use width="35" height="35" x="0" y="36" xlink:href="#twitter_icon"></use>
+    <use width="35" height="35" x="0" y="72" xlink:href="#insta_icon"></use>
+    <use width="35" height="35" x="0" y="108" xlink:href="#fb_icon_selected" ></use>
+    <use width="35" height="35" x="0" y="144" xlink:href="#twitter_icon_selected"></use>
+    <use width="35" height="35" x="0" y="180" xlink:href="#insta_icon_selected" ></use>
+    <use width="35" height="35" x="0" y="216" xlink:href="#google_icon"></use>
+    <use width="35" height="35" x="0" y="252" xlink:href="#google_icon_selected" ></use>
+    <use width="35" height="35" x="0" y="288" xlink:href="#mail_icon" ></use>
+</svg>
