@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=5.0, user-scalable=yes">
+   <title>Contact Us | ZEE5</title>
+
+    <!-- Dev -->
+    <link rel="stylesheet" href="style.css?ver=15.27.74">
+    <link rel="shortcut icon" href="https://www.zee5.com/images/favicon.ico" />
+
+    <!-- Prod -->
+   <!--  <link rel="stylesheet" href="style.min.css"> -->
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">  
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700" rel="stylesheet" type="text/css"
+      rel="import">
+</head>
+
+<body id= "body">
+   <script>
+          if (location.protocol != 'https:') { location.href = 'https:' + window.location.href.substring(window.location.protocol.length); }
+   </script>
+<div class="loader"><img src="./loading.gif" /></div>
+   <div class="somethingWrong">
+     <img src="./Something-Wrong.png" />
+     <div class="title">Please try again later</div>
+    </div>
+   <div class="container main-container">
+      <a class="logo" href="/">
+            <img class="image" src="ZEE5_Logo50x50.png" alt="logo" title="ZEE5" />
+      </a>
+      <!-- heading -->
+      <div class="headingTxt shiftLeft chgLeft">
+         Contact Us
+      </div>
+      <!-- heading -->
+      <!-- <div class="autocomplete" style="width:300px;border:2px solid white;">
+            <input id="myInput" type="text" name="myCountry" placeholder="Country">
+            </div> -->
+      <!-- info text -->
+<!--       <div class="infoText shiftLeft chgLeft">
+         <span class="info">
+            If you need further assistance or have any queries, please email us at
+         </span> -->
+         <!-- <span class="supportTxt"> -->
+<!--             <a class="supportTxtUrl" href="mailto:support.in@zee5.com?Subject=Feedback"
+               style=" font-family: 'Roboto';
+         font-weight: 400; font-size: 14px; color: rgb(191, 0, 107); text-align: left; font-style: normal; opacity: 1; letter-spacing: 0em; line-height: 22px; margin-bottom: 0px;"
+               target="_top"><span class="supportTxt"></span></a> -->
+         <!-- </span> -->
+<!--       </div> -->
+      <!-- info text -->
+      <div id="contact_form">
+         <!-- user details -->
+         <div class="row  userInfo">
+            <div class="col-lg-12">
+               <div class="col-lg-4 col-sm-4 col-md-4 marginTop bottomMobile">
+                  <!-- Country Dropdown -->
+                  <div class="dropdown selectedCountry">
+                     <button id="countryOptions"
+                        class="btn btn-primary dropdown-toggle countrySelector fullWidth btnTop" type="button"
+                        data-toggle="dropdown"><span class="countrySelectorText">Select your Country</span>
+                        <span class="imgClass">
+                           <img src="./down_arrow.png">
+                        </span>
+                     </button>
+                     <span id="countrySpan" class="floating-label hideElem countrySelectorText"> Select your Country </span>
+                     <ul id="containerContainer" class="dropdown-menu dropValues fullWidth">
+                     </ul>
+                  </div>
+                  <!-- Country Dropdown -->
+               </div>
+               <div class="col-lg-4 col-sm-4 col-md-4 topMobile bottomMobile">
+                  <!-- Registered mobile number -->
+                  <div class="mobile-number-container">
+                     <input style='width: 40px' tabindex="-1" id="countryCode" class="inputMobileNumber" value=""
+                        readonly>
+                     <input style='width: 68% !important'  type="tel" class="fullWidth inputMobileNumber" id="userMobile" autocomplete="nope"
+                        type="text" name="mobile" onkeydown="MobileRestrictNumbers(event);" onpaste="MobileRestrictNumbers(event);"
+                        onblur='mobileValidCommon(true)' onfocus="hideErrorMobile()" maxlength="13">
+                  </div>
+                  <span class="floating-label mobileMargin mobile-number reg_mob"> Registered mobile number </span>
+                  <div style="display: none;" id="loginMobileErrorMsg" class="InvalidMobile">Invalid mobile number</div>
+               </div>
+               <div class="col-lg-4 col-sm-4 col-md-4 topMobile bottomMobile">
+                  <!-- Email ID -->
+                  <input class="addedValue fullWidth" autocomplete="nope" id="userEmail" type="text" name="email"
+                     required onblur="emailValidCommon(true)" onfocus="hideErrorEmail()">
+                  <span class="email floating-label mobileMargin"> <span class="reg_email">Email ID</span> <span class="asterisk">*</span>
+                  </span>
+                  <div style="display: none;" id="loginErrMsg" class="InvalidEmail">Invalid email</div>
+               </div>
+            </div>
+         </div>
+         <!-- user details -->
+         <div class="mt-5 shiftLeft">
+            <div class="cotentTxt alignElmDiv radioNextLine chgLeft">
+               Tell us more about your issue :
+            </div>
+            <div id="category_container" class="inlineElm">
+            </div>
+         </div>
+         <br>
+         <div class="selectCategory removeBothPadding">
+            <div class="col-md-4 changePos subcategory topCategory">
+               <!-- Bootstrap dropdown -->
+               <div class="dropdown selectedCategory removeBothPadding addpadding">
+                  <button id="options" class="btn btn-primary dropdown-toggle catSelector fullWidth" type="button"
+                     data-toggle="dropdown"><span class="catSelectorText">Select category</span>
+                     <span class="imgClass">
+                        <img src="./down_arrow.png">
+                     </span>
+                  </button>
+                  <span id="subCatSpan" class="floating-label hideElem"> Select category </span>
+                  <ul id="subCategory_container" class="dropdown-menu dropValues fullWidth">
+                  </ul>
+               </div>
+               <!-- Bootstrap dropdown -->
+            </div>
+         </div>
+         <div id="fields_container" class="group removeBothPadding">
+         </div>
+         <!-- Error field -->
+         <!-- <div class="errTxt">
+               <input class="addedValue fullWidth" id="userEmail" type="text" name="email" required>
+                     <span class="floating-label" > Email ID </span>
+               </div> -->
+         <div class="row errTxt errMargin">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+               <input autocomplete= "nope" class="addedValue fullWidth" id="errMsg" type="text" name="errMsg" required>
+               <span class="floating-label errorMargin"><span class="error errorMsg" >Error Message</span><span class="asterisk">*</span> </span>
+            <div class="charactersstyle" >Minimum 10 characters</div>
+
+            </div>
+         </div>
+         <!-- Error field -->
+      </div>
+      <!-- Button Section -->
+      <div class="btnSection">
+
+      <div class="col-md-12 toastMsg-submit-outer">
+      <div class="toastMsg-submit col-lg-6 col-md-6 col-sm-6 col-xs-12">      
+      <p class="message pull-left">Your response has been received</p><p class="close-toastMsg pull-right" onclick="closeSubmitResponseMsg()">X</p>
+      </div>
+      </div>
+         <!-- <div class="col-lg-12"> -->
+         <!-- <div class="row"> -->
+            <div class="delayNote">
+               <b>We are trying our best to keep you entertained. However due to recent Coronavirus outbreak, our support team is working from home and there might be a delay in response. We will try our best to respond to your queries as soon as possible.</b>
+            </div>
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 btnChangePos p-5">
+            <button id="submitData" class="btnStyleDefault submitbtn" onclick=getAllValues()>
+               SUBMIT
+            </button>
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 btnChangePos p-5">
+            <button id="resetData" class="btnStyleDefault resetbtn btnStyleSelected" onclick=resetAllValues()>
+               RESET
+            </button>
+         </div>
+         <!-- </div> -->
+         <!-- </div> -->
+      </div>
+      <!-- Button Section -->
+      <div class="usaSupport">
+         <span><b>Zee5 Phone Support :</b> <a href="tel:+1-337-382-0846">+1(337)382-0846</a></span>
+         <br>
+         <b>Support Timing :</b>
+         <span>EDT - 01:30pm - 10:30pm</span>
+         <span>PDT - 10:30am - 07:30pm</span>
+      </div>
+   </div>
+   </div>
+   <!--  Toast msg  -->
+   <div id="toastMsg"></div>
+   <!--  Toast msg  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+   
+   <!-- Dev -->
+   <script src="contact.js?ver=15.27.74"></script>
+
+   <!-- Prod -->
+   <!-- <script src="contact.min.js"></script> -->
+</body>
+</html>
